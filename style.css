@@ -11,11 +11,27 @@ body{
 }
 
 div{
-  margin-top: 8%;
+  padding-top: 10%;
   display: inline-block;
   animation-name: bounce;
   animation-duration: 2s;
   animation-iteration-count: infinite;
+}
+
+@media all and (max-height: 700px) {
+  img{
+    height: 300px;
+  }
+}
+
+footer{
+  color: rgb(30,30,30);
+  position: bottom;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
 }
 
 @media all and (max-width: 700px){
@@ -35,6 +51,6 @@ footer{
 }
 
 div{
-  margin-top: 30px;
+  padding-top: 10%;
 }
 /* Bounce Animation: https://jsfiddle.net/e5eamncx/ */
