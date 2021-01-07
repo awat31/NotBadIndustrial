@@ -33,4 +33,8 @@ footer{
   text-align: center;
   font-size: 14px;
 }
+
+div{
+  margin-top: 30%;
+}
 /* Bounce Animation: https://jsfiddle.net/e5eamncx/ */
