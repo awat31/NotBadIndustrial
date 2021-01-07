@@ -1,0 +1,36 @@
+body{
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+}
+
+@keyframes bounce {
+  0% {transform: translateY(0px)}
+  50% {transform: translateY(20px)}
+  100% {transform: translateY(0px)}
+}
+
+div{
+  margin-top: 10%;
+  display: inline-block;
+  animation-name: bounce;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+}
+
+@media all and (max-width: 700px){
+  img{
+    height: 300px;
+  }
+}
+
+footer{
+  color: rgb(30,30,30);
+  position: bottom;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+/* Bounce Animation: https://jsfiddle.net/e5eamncx/ */
