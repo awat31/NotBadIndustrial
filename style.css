@@ -25,13 +25,14 @@ div{
 }
 
 footer{
-  color: rgb(30,30,30);
+  color: rgb(60,60,60);
   position: bottom;
   left: 0;
   bottom:0;
   width: 100%;
   text-align: center;
   font-size: 14px;
+  font-family: Helvetica;
 }
 
 @media all and (max-width: 700px){
@@ -41,13 +42,14 @@ footer{
 }
 
 footer{
-  color: rgb(30,30,30);
+  color: rgb(60,60,60);
   position: bottom;
   left: 0;
   bottom:0;
   width: 100%;
   text-align: center;
   font-size: 14px;
+  font-family: Helvetica;
 }
 
 div{
