@@ -1,0 +1,120 @@
+body{
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pink{
+  background-color: #e288e3;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: rgb(60,60,60);
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(200,200,200);
+  font-size: 30px;
+}
+
+p:active{
+  font-family: inherit;
+  font-size: 20px;
+  color: rgb(60,60,60);
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: rgb(60,60,60);
+  text-decoration: none;
+}
+
+@keyframes bounce {
+  0% {transform: translateY(0px)}
+  50% {transform: translateY(15px)}
+  100% {transform: translateY(0px)}
+}
+
+.logo{
+  padding-top: 10%;
+  display: inline-block;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@media all and (max-height: 700px) {
+  img{
+    height: 300px;
+  }
+  .img2{
+    height: 1000px;
+  }
+}
+
+footer{
+  color: rgb(20,20,20);
+  position: bottom;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nbind{
+  position: fixed;
+  color: rgb(30,30,30);
+  left: 50%;
+  bottom:0;
+  text-align: center;
+  font-size: 14px;
+  font-family: Helvetica;
+  height: 45px;
+  width: auto;
+  padding: 0px;
+}
+
+@media all and (max-width: 700px){
+  img{
+    height: 300px;
+  }
+
+
+.img2{
+  height: 1000px;
+}
+}
+
+
+footer{
+  color: rgb(20,20,20);
+  position: bottom;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div{
+  padding-top: 10%;
+}
+/* Bounce Animation: https://jsfiddle.net/e5eamncx/ */
